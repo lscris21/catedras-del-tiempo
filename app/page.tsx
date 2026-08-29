@@ -140,11 +140,11 @@ export default function Home() {
       <div className="topbar">
         <div className="shell topbar__inner">
           <div className="topbar__contact">
-            <a href="mailto:alondralev66@gmail.com">alondralev66@gmail.com</a>
+            <a href="mailto:alondralev66@gmail.com"><i className="fa-solid fa-envelope" aria-hidden="true" /> alondralev66@gmail.com</a>
             <span aria-hidden="true">•</span>
-            <a href="tel:+50582612722">+505 8261-2722</a>
+            <a href="tel:+50582612722"><i className="fa-solid fa-phone" aria-hidden="true" /> +505 8261-2722</a>
             <span aria-hidden="true">•</span>
-            <span>Nicaragua</span>
+            <span className="topbar__location"><i className="fa-solid fa-location-dot" aria-hidden="true" /> Nicaragua</span>
           </div>
           <div className="social-links" aria-label="Redes sociales">
             <a href="#" aria-label="Facebook"><i className="fa-brands fa-facebook-f" aria-hidden="true" /></a><a href="#" aria-label="Instagram"><i className="fa-brands fa-instagram" aria-hidden="true" /></a><a href="#" aria-label="TikTok"><i className="fa-brands fa-tiktok" aria-hidden="true" /></a>
